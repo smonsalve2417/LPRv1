@@ -1,5 +1,12 @@
 #Environment variables
 .env
 
+#Cache
+__pycache__/
+*.pyc
 
+#Media content
+Demos/
 
+#Pruebas
+data.py
