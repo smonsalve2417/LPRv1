@@ -34,6 +34,9 @@ MAX_QUEUE_SIZE = 10
 NUM_YOLO_WORKERS = 2
 NUM_OCR_WORKERS = 1
 
+
+# Ruta del modelo YOLO entrenado *.pt
+# Mejor cargar como .env pero por simplicidad lo dejo así
 model = YOLO(r'C:\Users\alvar\Documents\LPR\YoloV8\best.pt')
 
 # Variables globales
